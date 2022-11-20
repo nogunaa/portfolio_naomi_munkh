@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&display=swap');
+
+* {
+    font-family: "Jost", sans-serif;
+    padding: 5px 5px;
+    background-color: #FDEEEB;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home i, h3, p {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.home i {
+    color: #E6C7C1;
+}
+
+.home h3 {
+    color: #3F0113;
+}
+.home i, h3 {
+    font-size: 25px;
+}
+
+.home p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.menu a {
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3F0113;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    
+}
+
+img {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: 88px;
+    margin-right: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #3F0113;
+}
+
+.about h1 {
+    padding: 0;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+}
+
+.about h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about a {
+    text-decoration: none;
+    border: 1px solid #3F0113;
+    color: #3F0113;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 23px;
+    position: relative;
+}
+
+.about a:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+
+.about a span {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    background: none;
+}
+
+.about p {
+    height: 115px;
+    width: 500px;
+}
+.circles .resume {
+    background-color: #B39EB4;
+}
+
+.circles .projects {
+    background-color: #FEDBB2;
+}
+
+.circles .contact {
+    background-color: #C8E6D6;
+}
+
+hr {
+    padding: 0;
+    color: #3F0113;
+    background-color: #3F0113;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    color: #3F0113;
+    font-size: 20px;
+}
+
+.phone .email .follow {
+    margin: 2px;
+    padding: 2px;
+}
+
+.phone h4, .email h4, .follow h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.phone p, .email p, .follow p, .follow i {
+    margin: 0;
+    margin-top: 3px;
+    padding: 0;
+}
+
+.follow i {
+    color: #3F0113;
+}
+.createdby {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+}
