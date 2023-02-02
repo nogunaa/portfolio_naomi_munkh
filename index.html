@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome/all.min.css">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
     <title>Portfolio Naomi Munkh</title>
 </head>
 <body>
@@ -15,26 +17,36 @@
             <h3>Nominsuvd Munkherdene</h3>
             <p>Front End Developer</p>
         </nav>
+        
         <nav class="menu">
-            <a href="">Resume |</a>
-            <a href="">Projects |</a>
-            <a href="">Contact</a>
+            <i class="fa-solid fa-bars" id="dropdown-icon"></i>
+            <div  class="dropdown-content">
+                <a href="/resume.html">Resume |</a>
+                <a href="/projects.html">Projects |</a>
+                <a href="/contact.html">Contact</a>
+            </div>
+            
         </nav>
     </nav>
-    <div class="main">
+    <div id="swup" class="main transition-fade">
         <div class="img">
-            <img src="img/portrait.jpg" alt="portrait">
+            <img src="img/portrait.jpg" alt="portrait" class="img-mobile">
         </div>
-        <div class="about">
+        <div class="about" class="about-mobile">
             <h1>Hello</h1>
             <h3>A bit about me</h3>
-            <p>On an endless journey of launching a career in tech. 
+            <p> Creative, adventurous and eager team-player who excels at learning and leads by example. Principled steward of organizational resources. 
+                Skilled and enthusiastic communicator, photographer, researcher and organizer.
+                Right now I am on an exciting journey of launching a career in tech.
                 Currently I am looking for an entry-level frontend developer position.
-                If you know of any employers that might be hiring junior developers, or know of any particular job opportunities, I would appreciate it if you could let me know. Feel free to pass it along to any contacts you have that might know of a possible job opportunity.</p>
+                If you know of any employers that might be hiring junior developers, or know of any particular job opportunities, 
+                I would appreciate it if you could let me know. 
+                Feel free to pass it along to any contacts you have that might know of a possible job opportunity. 
+            </p>
             <div class="circles">
-                <a href="" class="resume"><span>Resume</span></a>
-                <a href="" class="projects"><span>Project</span></a>
-                <a href="" class="contact"><span>Contact</span></a>
+                <a href="/resume.html" class="resume"><span>Resume</span></a>
+                <a href="/projects.html" class="projects"><span>Projects</span></a>
+                <a href="/contact.html" class="contact"><span>Contact</span></a>
             </div>
            
         </div>
@@ -48,11 +60,11 @@
             </div>
             <div class="email">
                 <h4>Email</h4>
-                <p>nogunaa@icloud.com</p>
+                <a href="mailto: nogunaa@icloud.com">nogunaa@icloud.com</a>
             </div>
             <div class="follow">
                 <h4>Follow me</h4>
-                <a href="https://www.linkedin.com/in/nominsuvd-munkherdene/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/nominsuvd-munkherdene/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <div class="createdby">
                 <i class="fa-regular fa-copyright"></i><p>2023 By Nominsuvd Munkherdene.</p>
